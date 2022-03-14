@@ -1,0 +1,5 @@
+Citizen.CreateThread(function()
+	Citizen.InvokeNative(GetHashKey("ADD_TEXT_ENTRY"), 'FE_THDR_GTAO', Config.messagepause)
+    AddTextEntry("PM_PANE_LEAVE", Config.messagedisconnect)
+	AddTextEntry("PM_PANE_QUIT", Config.messagequit)
+end)
